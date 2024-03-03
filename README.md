@@ -51,7 +51,7 @@ string decodedText = encoder.Decode(encodedText);
 
 ## Contributing
 
-We welcome contributions to improve VSpace Encoding! If you have a feature request, bug report, or a patch, please feel free to submit an issue or pull request on GitHub.
+We welcome contributions to improve VSpace Encoding. If you have a feature request, bug report, or a patch, please feel free to submit an issue or pull request on GitHub.
 
 ## License
 
