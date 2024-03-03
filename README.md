@@ -1,3 +1,5 @@
+![Motoko](Html/Images/Motoko.webp)
+
 # VSpace Encoding
 
 VSpace Encoding is a novel text encoding scheme designed to securely encode sensitive information into a seemingly invisible format using ASCII whitespace characters. This project aims to protect textual data such as cryptographic keys or personal information from being easily captured through screen photographs or casual observation. By leveraging basic ASCII whitespace for encoding, VSpace ensures compatibility across a wide range of environments, including those outside of Unicode editors.
