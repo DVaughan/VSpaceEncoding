@@ -21,6 +21,7 @@ Clone this repository to get started:
 
 ```bash
 git clone https://github.com/DVaughan/VSpaceEncoding.git
+```
 
 ### Usage
 
