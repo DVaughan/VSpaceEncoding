@@ -68,7 +68,7 @@ namespace VSpaceEncoding
             // Arrange
             var encoder = new AsciiVSpaceEncoder();
             string originalText = "";
-            for (int i = 128; i <= 128; i++) // Extended ASCII characters //255
+            for (int i = 128; i <= 255; i++) // Extended ASCII characters
             {
                 originalText += (char)i;
             }
