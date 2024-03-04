@@ -2,7 +2,14 @@
 
 # VSpace Encoding
 
-VSpace Encoding is a novel text encoding scheme designed to securely encode sensitive information into a seemingly invisible format using ASCII whitespace characters. This project aims to protect textual data such as cryptographic keys or personal information from being easily captured through screen photographs or casual observation. By leveraging basic ASCII whitespace for encoding, VSpace ensures compatibility across a wide range of environments, including those outside of Unicode editors.
+VSpace Encoding is a novel text encoding scheme designed to securely encode sensitive information into a seemingly invisible format using ASCII whitespace characters. 
+This project aims to protect textual data such as cryptographic keys or personal information from being easily captured 
+through screen photographs or casual observation. By leveraging basic ASCII whitespace for encoding, 
+VSpace ensures compatibility across a wide range of environments, including those outside of Unicode editors.
+
+Current implementations include a C# and a JavaScript version. 
+The JavaScript implementation has an accompanying HTML page for demonstration purposes.
+The C# version includes unit tests, which the JavaScript version does not.
 
 ## Features
 
@@ -31,18 +38,32 @@ git clone https://github.com/DVaughan/VSpaceEncoding.git
 
 To encode a piece of text, use the Encode method:
 
+C#
 ```cs
 AsciiVSpaceEncoder encoder = new();
 string secretMessage = "Your Secret Text Here";
 string encodedText = encoder.Encode(secretMessage);
 ```
 
+JavaScript
+```js
+var encoder = new AsciiVSpaceEncoder();
+var secretMessage = "Your Secret Text Here";
+var encodedText = encoder.encode(secretMessage);
+```
+
 #### Decoding Text
 
 To decode previously encoded text, use the Decode method:
 
+C#
 ```cs
 string decodedText = encoder.Decode(encodedText);
+```
+
+JavaScript
+```js
+var text = encoder.decode(encodedText);
 ```
 
 ## Example Applications
