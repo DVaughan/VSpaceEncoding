@@ -24,6 +24,10 @@ The C# version includes unit tests, which the JavaScript version does not.
 * Crypto Key Management: Safely store cryptographic keys in text files or cloud storage without plain text visibility.
 * Privacy in Collaborative Environments: Keep sensitive information hidden while working in shared or public coding spaces.
 
+## Live Sample
+
+See [this live sample](https://danielvaughan.org/Samples/VSpaceEncoding/) to view the JavaScript implementation in action.
+
 ## Getting Started
 
 Clone this repository to get started:

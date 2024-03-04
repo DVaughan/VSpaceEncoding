@@ -45,6 +45,10 @@
                 display: inline-block;
                 margin-top: 30px;
             }
+            #footer {
+                display: inline-block;
+                margin-top: 30px;
+            }
         </style>
     </head>
     <body>
@@ -52,13 +56,22 @@
             <h2>VSpace Encoding Example</h2>
             <p>
                 <ol>
-                    <li>Write some text in the `Text to be encoded` text box.
-                    That text is encoded as Ascii whitespace characters and placed in the `Encoded text` text box.
-                    Whatever goes into the 'Encoded text' is automatically decoded into the `Decoded text` text box.</li>
+                    <li>
+                        Write some text in the `Text to be encoded` text box.
+                        That text is encoded as Ascii whitespace characters and placed in the `Encoded text` text box.
+                        Whatever goes into the 'Encoded text' is automatically decoded into the `Decoded text` box.
+                        <br />
+                        <blockquote>
+                            <em>The 'Encoded text' box may look empty. It isn't.</em><br />
+                        </blockquote>
+
+                    </li>
                     <li>Copy `Encoded text` using the `Copy to Clipboard` button.</li>
                     <li>Change the text in the `Text to be encoded` box.</li>
-                    <li>Paste the clipboard using the `Paste` button, and the `Decoded text` 
-                        should change to reflect the new value in the `Encoded text` box.</li>
+                    <li>
+                        Paste the clipboard using the `Paste` button, and the `Decoded text`
+                        should change to reflect the new value in the `Encoded text` box.
+                    </li>
                 </ol>
             </p>
         </div>
@@ -71,5 +84,7 @@
         <br />
         <label for="decodedText">Decoded text:</label>
         <textarea class="textBox" id="decodedText" rows="4" cols="50"></textarea>
+
+        <div id="footer">For more information see the <a href="https://github.com/DVaughan/VSpaceEncoding">VSpace Encoding repo</a>.</div>
     </body>
 </html>
