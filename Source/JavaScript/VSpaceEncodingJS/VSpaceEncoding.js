@@ -1,3 +1,6 @@
+/* Copyright © 2024, Daniel Vaughan. All rights reserved.
+   Licensed under the MIT license. See the LICENSE file. */
+
 class Characters {
     static NonBreakingSpace = '\u00A0';
     static LineFeed = '\n';

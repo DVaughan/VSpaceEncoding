@@ -1,4 +1,7 @@
-﻿using FluentAssertions;
+﻿/* Copyright © 2024, Daniel Vaughan. All rights reserved.
+   Licensed under the MIT license. See the LICENSE file. */
+
+using FluentAssertions;
 
 namespace VSpaceEncoding
 {

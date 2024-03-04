@@ -18,13 +18,13 @@ The C# version includes unit tests, which the JavaScript version does not.
 - **Simple Integration**: Designed to be easily integrated into various applications, offering a straightforward API for encoding and decoding operations.
 - **Enhanced Security**: Provides an additional layer of security for sensitive information, ideal for protecting data in less secure or public environments.
 
+## Example Applications
+
+* Secure Note Sharing: Encode sensitive notes before sharing through email or messaging apps.
+* Crypto Key Management: Safely store cryptographic keys in text files or cloud storage without plain text visibility.
+* Privacy in Collaborative Environments: Keep sensitive information hidden while working in shared or public coding spaces.
+
 ## Getting Started
-
-### Prerequisites
-
-No specific prerequisites are needed due to the project's reliance on ASCII characters, making it suitable for virtually any programming or text editing environment.
-
-### Installation
 
 Clone this repository to get started:
 
@@ -65,12 +65,6 @@ JavaScript
 ```js
 var text = encoder.decode(encodedText);
 ```
-
-## Example Applications
-
-* Secure Note Sharing: Encode sensitive notes before sharing through email or messaging apps.
-* Crypto Key Management: Safely store cryptographic keys in text files or cloud storage without plain text visibility.
-* Privacy in Collaborative Environments: Keep sensitive information hidden while working in shared or public coding spaces.
 
 ## Contributing
 
