@@ -21,7 +21,7 @@ The C# version includes unit tests, which the JavaScript version does not.
 ## Example Applications
 
 * Secure Note Sharing: Encode sensitive notes before sharing through email or messaging apps.
-* Crypto Key Management: Safely store cryptographic keys in text files or cloud storage without plain text visibility.
+* Crypto Key Management: Safely transfer cryptographic keys as plain text without revealing content.
 * Privacy in Collaborative Environments: Keep sensitive information hidden while working in shared or public coding spaces.
 
 ## Live Sample
